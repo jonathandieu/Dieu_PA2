@@ -16,7 +16,7 @@ public class Decrypter {
 		b = (b + 3) % 10;
 		c = (c + 3) % 10;
 		d = (d + 3) % 10;
-		return (c *1000 + d * 100 + a * 10 + b);
+		return (c * 1000 + d * 100 + a * 10 + b);
 	}
 	
 
